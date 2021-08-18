@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Oxygen', sans-serif;
+}
+
+html {
+    background-color: rgb(29, 23, 23);
+    color:cornsilk;
+}
+
+.boards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.board {
+    background-color: rgb(19, 7, 41);
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    flex: 1;
+    margin: 15px 5px 0px 5px;
+}
+
+.board h3 {
+    padding: 16px;
+    margin: 0;
+    color: rgb(65, 109, 253);
+}
+
+.dropZone{
+    padding: 16px;
+}
+
+.card {
+    padding: 16px;
+    box-shadow: 0px 2px 2px -1px rgb(65, 109, 253);
+    margin: 25px 0px;
+    border-radius: 4px;
+    min-width: 80%;
+}
